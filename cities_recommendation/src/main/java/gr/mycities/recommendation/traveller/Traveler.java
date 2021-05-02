@@ -1,17 +1,29 @@
 package gr.mycities.recommendation.traveller;
 
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import gr.mycities.recommendation.exceptions.NoAcceptedAgeException;
 import gr.mycities.recommendation.CalculationUtils;
-import gr.mycities.recommendation.City;
-import gr.mycities.recommendation.Place;
-import gr.mycities.recommendation.Term;
+import static gr.mycities.recommendation.MyConstants.SEPARATOR;
+import gr.mycities.recommendation.MyTravellers;
+import gr.mycities.recommendation.json.TravelerDeserializer;
+import gr.mycities.recommendation.json.TravelerSerializer;
+import gr.mycities.recommendation.models.City;
+import gr.mycities.recommendation.models.Place;
+import gr.mycities.recommendation.models.Reccomendation;
+import gr.mycities.recommendation.models.Term;
 import java.util.List;
+import java.util.Objects;
 import java.util.SortedSet;
 import java.util.TreeSet;
 import java.util.Vector;
 import java.util.stream.Collectors;
 
+@JsonSerialize(keyUsing = TravelerSerializer.class)
+@JsonDeserialize(keyUsing = TravelerDeserializer.class)
 public abstract class Traveler {
+
     private Vector<Term> terms = new Vector<Term>(10); // terms
     private int age; // age of the traveller
     private Place place; // the place
@@ -37,6 +49,7 @@ public abstract class Traveler {
 
     // we did not make this method abstract, because it's body is the same for all chlidren
     public double calculate_similarity(City city, double p) {
+        MyTravellers.addReccomendation(this, new Reccomendation(city));
         return p * similarity_terms_vector(city) + (1 - p) * CalculationUtils.similarity_geodesic_vector(this, city);
     }
 
@@ -62,6 +75,9 @@ public abstract class Traveler {
         return terms.get(i).getRate();
     }
 
+    public void setTermRate(int position, int value) {
+        terms.get(position).setRate(value);
+    }
     public Vector getTerms() {
         return terms;
     }
@@ -94,10 +110,48 @@ public abstract class Traveler {
         this.name = name;
     }
 
-    // we override this method to have a better representation when we print the object
+    // jackson uses this method for the serialization for the json
     @Override
+    @JsonValue
     public String toString() {
-        String myTerms = terms.stream().map((t) -> t.getDescription() + ":" + t.getRate()).reduce("", (t, a) -> t + "," + a);
-        return "Traveller " + name + "{ age:" + age + " : terms=" + myTerms + "," + place.getDescription() + ", lat=" + place.getGeodesic_vector().get(0) + ", lon=" + place.getGeodesic_vector().get(1) + "}";
+        return this.getClass().getName() + SEPARATOR + name + SEPARATOR + age + " TERMS " + terms + " " + place;
     }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 59 * hash + Objects.hashCode(this.terms);
+        hash = 59 * hash + this.age;
+        hash = 59 * hash + Objects.hashCode(this.place);
+        hash = 59 * hash + Objects.hashCode(this.name);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Traveler other = (Traveler) obj;
+        if (this.age != other.age) {
+            return false;
+        }
+        if (!Objects.equals(this.name, other.name)) {
+            return false;
+        }
+        if (!Objects.equals(this.terms, other.terms)) {
+            return false;
+        }
+        if (!Objects.equals(this.place, other.place)) {
+            return false;
+        }
+        return true;
+    }
+
 }

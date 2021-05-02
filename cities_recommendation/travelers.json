@@ -1,0 +1,1560 @@
+{
+  "\"gr.mycities.recommendation.traveller.ElderTraveller _and_ nyrhsleqrc _and_ 61 TERMS [sea _and_ 5, mountain _and_ 7, museum _and_ 1, cafe _and_ 7, restaurant _and_ 7, music _and_ 7, theater _and_ 9, bar _and_ 8, art _and_ 1, sport _and_ 8] Place{geodesic_vector=[37.9795, 23.7162], description=Athens, country=Greece}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619787604439
+  },
+  "\"gr.mycities.recommendation.traveller.ElderTraveller _and_ dwstjvkvig _and_ 72 TERMS [sea _and_ 7, mountain _and_ 3, museum _and_ 8, cafe _and_ 3, restaurant _and_ 7, music _and_ 2, theater _and_ 8, bar _and_ 3, art _and_ 6, sport _and_ 6] Place{geodesic_vector=[48.8534, 2.3488], description=Paris, country=France}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 28
+      }, {
+        "description" : "mountain",
+        "rate" : 3
+      }, {
+        "description" : "museum",
+        "rate" : 18
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 3
+      }, {
+        "description" : "music",
+        "rate" : 32
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 10
+      }, {
+        "description" : "art",
+        "rate" : 81
+      }, {
+        "description" : "sport",
+        "rate" : 2
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 39.62, 19.9197 ],
+        "description" : "Corfu",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619791692494
+  },
+  "\"gr.mycities.recommendation.traveller.MiddleTraveler _and_ pxdeubpmwu _and_ 41 TERMS [sea _and_ 7, mountain _and_ 9, museum _and_ 5, cafe _and_ 4, restaurant _and_ 4, music _and_ 9, theater _and_ 5, bar _and_ 1, art _and_ 9, sport _and_ 1] Place{geodesic_vector=[37.0389, 22.1142], description=Kalamata, country=Greece}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619791853076
+  },
+  "\"gr.mycities.recommendation.traveller.YoungTraveler _and_ test _and_ 25 TERMS [sea _and_ 5, mountain _and_ 5, museum _and_ 5, cafe _and_ 5, restaurant _and_ 5, music _and_ 5, theater _and_ 5, bar _and_ 5, art _and_ 5, sport _and_ 5] Place{geodesic_vector=[37.9795, 23.7162], description=Athens, country=Greece}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 28
+      }, {
+        "description" : "mountain",
+        "rate" : 3
+      }, {
+        "description" : "museum",
+        "rate" : 18
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 3
+      }, {
+        "description" : "music",
+        "rate" : 32
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 10
+      }, {
+        "description" : "art",
+        "rate" : 81
+      }, {
+        "description" : "sport",
+        "rate" : 2
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 39.62, 19.9197 ],
+        "description" : "Corfu",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619791853077
+  },
+  "\"gr.mycities.recommendation.traveller.ElderTraveller _and_ ljdyikruqm _and_ 73 TERMS [sea _and_ 6, mountain _and_ 6, museum _and_ 1, cafe _and_ 3, restaurant _and_ 5, music _and_ 5, theater _and_ 1, bar _and_ 8, art _and_ 7, sport _and_ 7] Place{geodesic_vector=[45.4643, 9.1895], description=Milan, country=Italy}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619789384167
+  },
+  "\"gr.mycities.recommendation.traveller.ElderTraveller _and_ apnktqdwhq _and_ 70 TERMS [sea _and_ 3, mountain _and_ 2, museum _and_ 2, cafe _and_ 6, restaurant _and_ 7, music _and_ 2, theater _and_ 3, bar _and_ 5, art _and_ 8, sport _and_ 7] Place{geodesic_vector=[37.9795, 23.7162], description=Athens, country=Greece}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619787604439
+  },
+  "\"gr.mycities.recommendation.traveller.MiddleTraveler _and_ ilrebmrgug _and_ 30 TERMS [sea _and_ 3, mountain _and_ 7, museum _and_ 7, cafe _and_ 5, restaurant _and_ 5, music _and_ 6, theater _and_ 3, bar _and_ 7, art _and_ 9, sport _and_ 9] Place{geodesic_vector=[37.9795, 23.7162], description=Athens, country=Greece}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619791853076
+  },
+  "\"gr.mycities.recommendation.traveller.MiddleTraveler _and_ xiemnrgngl _and_ 28 TERMS [sea _and_ 5, mountain _and_ 8, museum _and_ 8, cafe _and_ 3, restaurant _and_ 6, music _and_ 3, theater _and_ 8, bar _and_ 3, art _and_ 2, sport _and_ 6] Place{geodesic_vector=[37.0389, 22.1142], description=Kalamata, country=Greece}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619789384167
+  },
+  "\"gr.mycities.recommendation.traveller.YoungTraveler _and_ qkyvmrjmgp _and_ 23 TERMS [sea _and_ 3, mountain _and_ 4, museum _and_ 6, cafe _and_ 3, restaurant _and_ 3, music _and_ 5, theater _and_ 7, bar _and_ 3, art _and_ 7, sport _and_ 5] Place{geodesic_vector=[45.4643, 9.1895], description=Milan, country=Italy}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619789417230
+  },
+  "\"gr.mycities.recommendation.traveller.MiddleTraveler _and_ tujrjckzvq _and_ 52 TERMS [sea _and_ 1, mountain _and_ 8, museum _and_ 2, cafe _and_ 6, restaurant _and_ 6, music _and_ 7, theater _and_ 6, bar _and_ 8, art _and_ 5, sport _and_ 4] Place{geodesic_vector=[45.4643, 9.1895], description=Milan, country=Italy}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619787588007
+  },
+  "\"gr.mycities.recommendation.traveller.ElderTraveller _and_ dwowhuuumi _and_ 98 TERMS [sea _and_ 1, mountain _and_ 7, museum _and_ 6, cafe _and_ 4, restaurant _and_ 9, music _and_ 4, theater _and_ 4, bar _and_ 7, art _and_ 1, sport _and_ 8] Place{geodesic_vector=[45.4643, 9.1895], description=Milan, country=Italy}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619787588007
+  },
+  "\"gr.mycities.recommendation.traveller.ElderTraveller _and_ rdgzpwejxv _and_ 73 TERMS [sea _and_ 4, mountain _and_ 8, museum _and_ 7, cafe _and_ 7, restaurant _and_ 6, music _and_ 8, theater _and_ 4, bar _and_ 5, art _and_ 4, sport _and_ 3] Place{geodesic_vector=[48.8534, 2.3488], description=Paris, country=France}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619789384167
+  },
+  "\"gr.mycities.recommendation.traveller.ElderTraveller _and_ ppduvlxupf _and_ 61 TERMS [sea _and_ 4, mountain _and_ 5, museum _and_ 1, cafe _and_ 9, restaurant _and_ 3, music _and_ 6, theater _and_ 4, bar _and_ 5, art _and_ 2, sport _and_ 2] Place{geodesic_vector=[37.9795, 23.7162], description=Athens, country=Greece}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619787579818
+  },
+  "\"gr.mycities.recommendation.traveller.MiddleTraveler _and_ sypttauvfu _and_ 30 TERMS [sea _and_ 8, mountain _and_ 1, museum _and_ 2, cafe _and_ 7, restaurant _and_ 7, music _and_ 3, theater _and_ 3, bar _and_ 8, art _and_ 8, sport _and_ 3] Place{geodesic_vector=[45.4643, 9.1895], description=Milan, country=Italy}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619787579818
+  },
+  "\"gr.mycities.recommendation.traveller.ElderTraveller _and_ mioxcrlbid _and_ 97 TERMS [sea _and_ 7, mountain _and_ 3, museum _and_ 9, cafe _and_ 5, restaurant _and_ 3, music _and_ 8, theater _and_ 2, bar _and_ 6, art _and_ 3, sport _and_ 8] Place{geodesic_vector=[45.4643, 9.1895], description=Milan, country=Italy}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 28
+      }, {
+        "description" : "mountain",
+        "rate" : 3
+      }, {
+        "description" : "museum",
+        "rate" : 18
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 3
+      }, {
+        "description" : "music",
+        "rate" : 32
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 10
+      }, {
+        "description" : "art",
+        "rate" : 81
+      }, {
+        "description" : "sport",
+        "rate" : 2
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 39.62, 19.9197 ],
+        "description" : "Corfu",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619791692494
+  },
+  "\"gr.mycities.recommendation.traveller.YoungTraveler _and_ cuiyhwafrb _and_ 18 TERMS [sea _and_ 2, mountain _and_ 6, museum _and_ 9, cafe _and_ 9, restaurant _and_ 1, music _and_ 5, theater _and_ 7, bar _and_ 9, art _and_ 7, sport _and_ 6] Place{geodesic_vector=[37.0389, 22.1142], description=Kalamata, country=Greece}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619787604439
+  },
+  "\"gr.mycities.recommendation.traveller.ElderTraveller _and_ wjvspxvtbo _and_ 80 TERMS [sea _and_ 6, mountain _and_ 3, museum _and_ 7, cafe _and_ 6, restaurant _and_ 7, music _and_ 6, theater _and_ 3, bar _and_ 1, art _and_ 3, sport _and_ 6] Place{geodesic_vector=[45.4643, 9.1895], description=Milan, country=Italy}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619789417230
+  },
+  "\"gr.mycities.recommendation.traveller.ElderTraveller _and_ zcgkpgdbay _and_ 97 TERMS [sea _and_ 4, mountain _and_ 4, museum _and_ 3, cafe _and_ 7, restaurant _and_ 9, music _and_ 4, theater _and_ 4, bar _and_ 3, art _and_ 2, sport _and_ 2] Place{geodesic_vector=[37.0389, 22.1142], description=Kalamata, country=Greece}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619787579818
+  },
+  "\"gr.mycities.recommendation.traveller.ElderTraveller _and_ azwpyizxnk _and_ 97 TERMS [sea _and_ 9, mountain _and_ 8, museum _and_ 4, cafe _and_ 1, restaurant _and_ 6, music _and_ 2, theater _and_ 6, bar _and_ 8, art _and_ 8, sport _and_ 6] Place{geodesic_vector=[37.9795, 23.7162], description=Athens, country=Greece}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619791853076
+  },
+  "\"gr.mycities.recommendation.traveller.YoungTraveler _and_ 2Reccomendations _and_ 25 TERMS [sea _and_ 4, mountain _and_ 5, museum _and_ 5, cafe _and_ 5, restaurant _and_ 5, music _and_ 5, theater _and_ 5, bar _and_ 5, art _and_ 5, sport _and_ 5] Place{geodesic_vector=[37.9795, 23.7162], description=Athens, country=Greece}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 28
+      }, {
+        "description" : "mountain",
+        "rate" : 3
+      }, {
+        "description" : "museum",
+        "rate" : 18
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 3
+      }, {
+        "description" : "music",
+        "rate" : 32
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 10
+      }, {
+        "description" : "art",
+        "rate" : 81
+      }, {
+        "description" : "sport",
+        "rate" : 2
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 39.62, 19.9197 ],
+        "description" : "Corfu",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619791853077
+  },
+  "\"gr.mycities.recommendation.traveller.ElderTraveller _and_ sshgqvnxeh _and_ 78 TERMS [sea _and_ 8, mountain _and_ 8, museum _and_ 9, cafe _and_ 5, restaurant _and_ 5, music _and_ 3, theater _and_ 5, bar _and_ 8, art _and_ 1, sport _and_ 7] Place{geodesic_vector=[45.4643, 9.1895], description=Milan, country=Italy}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619787604439
+  },
+  "\"gr.mycities.recommendation.traveller.YoungTraveler _and_ 2Reccomendations _and_ 25 TERMS [sea _and_ 5, mountain _and_ 5, museum _and_ 5, cafe _and_ 5, restaurant _and_ 5, music _and_ 5, theater _and_ 5, bar _and_ 5, art _and_ 5, sport _and_ 5] Place{geodesic_vector=[37.9795, 23.7162], description=Athens, country=Greece}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 28
+      }, {
+        "description" : "mountain",
+        "rate" : 3
+      }, {
+        "description" : "museum",
+        "rate" : 18
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 3
+      }, {
+        "description" : "music",
+        "rate" : 32
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 10
+      }, {
+        "description" : "art",
+        "rate" : 81
+      }, {
+        "description" : "sport",
+        "rate" : 2
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 39.62, 19.9197 ],
+        "description" : "Corfu",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619791853077
+  },
+  "\"gr.mycities.recommendation.traveller.ElderTraveller _and_ egytiuivhg _and_ 79 TERMS [sea _and_ 3, mountain _and_ 4, museum _and_ 7, cafe _and_ 2, restaurant _and_ 7, music _and_ 9, theater _and_ 9, bar _and_ 5, art _and_ 8, sport _and_ 5] Place{geodesic_vector=[37.9795, 23.7162], description=Athens, country=Greece}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619789384167
+  },
+  "\"gr.mycities.recommendation.traveller.ElderTraveller _and_ vpfhmltarn _and_ 81 TERMS [sea _and_ 2, mountain _and_ 1, museum _and_ 6, cafe _and_ 3, restaurant _and_ 3, music _and_ 1, theater _and_ 1, bar _and_ 7, art _and_ 7, sport _and_ 9] Place{geodesic_vector=[37.9795, 23.7162], description=Athens, country=Greece}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619787588007
+  },
+  "\"gr.mycities.recommendation.traveller.ElderTraveller _and_ eganaotcyh _and_ 63 TERMS [sea _and_ 7, mountain _and_ 1, museum _and_ 1, cafe _and_ 9, restaurant _and_ 2, music _and_ 3, theater _and_ 5, bar _and_ 2, art _and_ 7, sport _and_ 1] Place{geodesic_vector=[37.0389, 22.1142], description=Kalamata, country=Greece}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 28
+      }, {
+        "description" : "mountain",
+        "rate" : 3
+      }, {
+        "description" : "museum",
+        "rate" : 18
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 3
+      }, {
+        "description" : "music",
+        "rate" : 32
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 10
+      }, {
+        "description" : "art",
+        "rate" : 81
+      }, {
+        "description" : "sport",
+        "rate" : 2
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 39.62, 19.9197 ],
+        "description" : "Corfu",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619791692494
+  },
+  "\"gr.mycities.recommendation.traveller.MiddleTraveler _and_ njuxdeminm _and_ 33 TERMS [sea _and_ 2, mountain _and_ 5, museum _and_ 8, cafe _and_ 3, restaurant _and_ 6, music _and_ 9, theater _and_ 7, bar _and_ 8, art _and_ 2, sport _and_ 7] Place{geodesic_vector=[37.0389, 22.1142], description=Kalamata, country=Greece}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619787579818
+  },
+  "\"gr.mycities.recommendation.traveller.MiddleTraveler _and_ jgqfrhvsvy _and_ 38 TERMS [sea _and_ 9, mountain _and_ 1, museum _and_ 4, cafe _and_ 2, restaurant _and_ 3, music _and_ 5, theater _and_ 9, bar _and_ 5, art _and_ 8, sport _and_ 8] Place{geodesic_vector=[37.9795, 23.7162], description=Athens, country=Greece}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619787604439
+  },
+  "\"gr.mycities.recommendation.traveller.MiddleTraveler _and_ thaxfcilee _and_ 50 TERMS [sea _and_ 6, mountain _and_ 9, museum _and_ 8, cafe _and_ 3, restaurant _and_ 5, music _and_ 5, theater _and_ 5, bar _and_ 5, art _and_ 7, sport _and_ 6] Place{geodesic_vector=[37.9795, 23.7162], description=Athens, country=Greece}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619791853076
+  },
+  "\"gr.mycities.recommendation.traveller.YoungTraveler _and_ mghzqgvzob _and_ 18 TERMS [sea _and_ 1, mountain _and_ 3, museum _and_ 1, cafe _and_ 3, restaurant _and_ 1, music _and_ 6, theater _and_ 5, bar _and_ 7, art _and_ 6, sport _and_ 7] Place{geodesic_vector=[37.0389, 22.1142], description=Kalamata, country=Greece}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619787588007
+  },
+  "\"gr.mycities.recommendation.traveller.YoungTraveler _and_ nhdiotmfci _and_ 24 TERMS [sea _and_ 1, mountain _and_ 7, museum _and_ 1, cafe _and_ 8, restaurant _and_ 6, music _and_ 3, theater _and_ 6, bar _and_ 6, art _and_ 6, sport _and_ 2] Place{geodesic_vector=[45.4643, 9.1895], description=Milan, country=Italy}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619789417230
+  },
+  "\"gr.mycities.recommendation.traveller.YoungTraveler _and_ qyccnlprss _and_ 18 TERMS [sea _and_ 3, mountain _and_ 9, museum _and_ 8, cafe _and_ 6, restaurant _and_ 3, music _and_ 5, theater _and_ 5, bar _and_ 5, art _and_ 8, sport _and_ 6] Place{geodesic_vector=[45.4643, 9.1895], description=Milan, country=Italy}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 28
+      }, {
+        "description" : "mountain",
+        "rate" : 3
+      }, {
+        "description" : "museum",
+        "rate" : 18
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 3
+      }, {
+        "description" : "music",
+        "rate" : 32
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 10
+      }, {
+        "description" : "art",
+        "rate" : 81
+      }, {
+        "description" : "sport",
+        "rate" : 2
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 39.62, 19.9197 ],
+        "description" : "Corfu",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619791692494
+  },
+  "\"gr.mycities.recommendation.traveller.MiddleTraveler _and_ dqneuljxrk _and_ 46 TERMS [sea _and_ 5, mountain _and_ 8, museum _and_ 9, cafe _and_ 6, restaurant _and_ 3, music _and_ 4, theater _and_ 7, bar _and_ 9, art _and_ 8, sport _and_ 5] Place{geodesic_vector=[48.8534, 2.3488], description=Paris, country=France}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619787579818
+  },
+  "\"gr.mycities.recommendation.traveller.MiddleTraveler _and_ vfuyxlozro _and_ 57 TERMS [sea _and_ 1, mountain _and_ 7, museum _and_ 1, cafe _and_ 6, restaurant _and_ 6, music _and_ 4, theater _and_ 4, bar _and_ 1, art _and_ 2, sport _and_ 7] Place{geodesic_vector=[37.9795, 23.7162], description=Athens, country=Greece}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619789417230
+  },
+  "\"gr.mycities.recommendation.traveller.ElderTraveller _and_ rhymqkasku _and_ 99 TERMS [sea _and_ 8, mountain _and_ 2, museum _and_ 2, cafe _and_ 1, restaurant _and_ 4, music _and_ 2, theater _and_ 5, bar _and_ 9, art _and_ 8, sport _and_ 7] Place{geodesic_vector=[45.4643, 9.1895], description=Milan, country=Italy}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619789417230
+  },
+  "\"gr.mycities.recommendation.traveller.ElderTraveller _and_ vqtxemfotb _and_ 90 TERMS [sea _and_ 9, mountain _and_ 7, museum _and_ 6, cafe _and_ 2, restaurant _and_ 6, music _and_ 5, theater _and_ 2, bar _and_ 7, art _and_ 4, sport _and_ 2] Place{geodesic_vector=[48.8534, 2.3488], description=Paris, country=France}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 28
+      }, {
+        "description" : "mountain",
+        "rate" : 3
+      }, {
+        "description" : "museum",
+        "rate" : 18
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 3
+      }, {
+        "description" : "music",
+        "rate" : 32
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 10
+      }, {
+        "description" : "art",
+        "rate" : 81
+      }, {
+        "description" : "sport",
+        "rate" : 2
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 39.62, 19.9197 ],
+        "description" : "Corfu",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619791692494
+  },
+  "\"gr.mycities.recommendation.traveller.YoungTraveler _and_ zwruzvtbmz _and_ 19 TERMS [sea _and_ 4, mountain _and_ 8, museum _and_ 7, cafe _and_ 7, restaurant _and_ 4, music _and_ 1, theater _and_ 6, bar _and_ 7, art _and_ 1, sport _and_ 8] Place{geodesic_vector=[48.8534, 2.3488], description=Paris, country=France}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619791853076
+  },
+  "\"gr.mycities.recommendation.traveller.MiddleTraveler _and_ jlxreelaqv _and_ 54 TERMS [sea _and_ 7, mountain _and_ 6, museum _and_ 8, cafe _and_ 7, restaurant _and_ 1, music _and_ 1, theater _and_ 4, bar _and_ 2, art _and_ 3, sport _and_ 9] Place{geodesic_vector=[37.9795, 23.7162], description=Athens, country=Greece}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619789384167
+  },
+  "\"gr.mycities.recommendation.traveller.MiddleTraveler _and_ lufsjfvbgu _and_ 27 TERMS [sea _and_ 8, mountain _and_ 4, museum _and_ 5, cafe _and_ 4, restaurant _and_ 1, music _and_ 5, theater _and_ 4, bar _and_ 7, art _and_ 2, sport _and_ 8] Place{geodesic_vector=[45.4643, 9.1895], description=Milan, country=Italy}\"" : {
+    "visit" : {
+      "terms_vector" : [ {
+        "description" : "sea",
+        "rate" : 15
+      }, {
+        "description" : "mountain",
+        "rate" : 9
+      }, {
+        "description" : "museum",
+        "rate" : 37
+      }, {
+        "description" : "cafe",
+        "rate" : 1
+      }, {
+        "description" : "restaurant",
+        "rate" : 6
+      }, {
+        "description" : "music",
+        "rate" : 12
+      }, {
+        "description" : "theater",
+        "rate" : 0
+      }, {
+        "description" : "bar",
+        "rate" : 8
+      }, {
+        "description" : "art",
+        "rate" : 74
+      }, {
+        "description" : "sport",
+        "rate" : 36
+      } ],
+      "place" : {
+        "geodesic_vector" : [ 37.9795, 23.7162 ],
+        "description" : "Athens",
+        "country" : "Greece"
+      }
+    },
+    "when" : 1619787588007
+  }
+}

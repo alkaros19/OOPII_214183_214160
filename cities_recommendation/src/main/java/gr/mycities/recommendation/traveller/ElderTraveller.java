@@ -1,13 +1,18 @@
 package gr.mycities.recommendation.traveller;
 
-import gr.mycities.recommendation.City;
-import gr.mycities.recommendation.Place;
-import gr.mycities.recommendation.Term;
+import gr.mycities.recommendation.models.City;
+import gr.mycities.recommendation.models.Place;
+import gr.mycities.recommendation.models.Term;
 import java.util.HashSet;
 import java.util.Set;
 
 public class ElderTraveller extends Traveler {
-    // check YoungTraveller comment
+
+    // jackson needs the defauls constructor
+    public ElderTraveller() {
+    }
+    
+// check YoungTraveller comment
     ElderTraveller(int age, Place place) {
         setAge(age);
         setPlace(place);

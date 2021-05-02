@@ -1,5 +1,6 @@
 package gr.mycities.recommendation;
 
+import gr.mycities.recommendation.models.City;
 import gr.mycities.recommendation.traveller.Traveler;
 import java.util.ArrayList;
 import java.util.Random;

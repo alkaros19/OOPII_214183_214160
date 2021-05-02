@@ -1,9 +1,13 @@
 package gr.mycities.recommendation.traveller;
 
-import gr.mycities.recommendation.City;
-import gr.mycities.recommendation.Place;
+import gr.mycities.recommendation.models.City;
+import gr.mycities.recommendation.models.Place;
 
 public class MiddleTraveler extends Traveler {
+
+    // jackson needs the defauls constructor
+    public MiddleTraveler() {
+    }
     
     // check YoungTraveller comment
     MiddleTraveler(int age, Place place) {

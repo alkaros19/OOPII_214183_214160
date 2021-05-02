@@ -1,10 +1,15 @@
 
 package gr.mycities.recommendation.traveller;
 
-import gr.mycities.recommendation.City;
-import gr.mycities.recommendation.Place;
+import gr.mycities.recommendation.models.City;
+import gr.mycities.recommendation.models.Place;
 
 public class YoungTraveler extends Traveler {
+
+    // jackson needs the defauls constructor
+    public YoungTraveler() {
+    }
+    
     
     // visibility only in the package - we cannot instantiate the object with the constructor outside the package
     // we will use the static method createTraveller from the abstract class
@@ -24,4 +29,7 @@ public class YoungTraveler extends Traveler {
         return 1/(1 + Math.sqrt(sum));
     }
 
+    
+
+    
 }
