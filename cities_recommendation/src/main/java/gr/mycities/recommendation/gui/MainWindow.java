@@ -39,6 +39,7 @@ public class MainWindow {
                 ObjectMapper mapper = new ObjectMapper();
                 ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
                 try {
+                    System.out.println(MyTravellers.getTravelers());
                     writer.writeValue(Paths.get(MyConstants.JSON_FILE_NAME).toFile(), MyTravellers.getTravelers());
                 } catch (IOException ex) {
                     Logger.getLogger(MainWindow.class.getName()).log(Level.SEVERE, null, ex);

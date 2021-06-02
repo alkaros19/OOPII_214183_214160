@@ -27,17 +27,22 @@ public class TravelerDeserializer extends KeyDeserializer {
             tr = (Traveler) clazz.getDeclaredConstructor().newInstance();
             tr.setName(values[1].strip());
             tr.setAge(Integer.parseInt(values[2].strip()));
-            String[] terms = value.split("TERMS")[1].split("Place")[0].split(",");
-            terms[0] = terms[0].strip().substring(1);
-            int lastPosition = terms.length - 1;
-            terms[lastPosition] = terms[lastPosition].strip();
-            terms[lastPosition] = terms[lastPosition].substring(0, terms[lastPosition].strip().length() - 1);
-            Vector myTerms = new Vector();
-            for (var i = 0; i < terms.length; i++) {
-                String[] v = terms[i].split(SEPARATOR);
-                myTerms.add(new Term(v[0].strip(), Integer.parseInt(v[1].strip())));
+            String[] terms = null;
+            try {
+                terms = value.split("TERMS")[1].split("Place")[0].split(",");
+                terms[0] = terms[0].strip().substring(1);
+                int lastPosition = terms.length - 1;
+                terms[lastPosition] = terms[lastPosition].strip();
+                terms[lastPosition] = terms[lastPosition].substring(0, terms[lastPosition].strip().length() - 1);
+                Vector myTerms = new Vector();
+                for (var i = 0; i < terms.length; i++) {
+                    String[] v = terms[i].split(SEPARATOR);
+                    myTerms.add(new Term(v[0].strip(), Integer.parseInt(v[1].strip())));
+                }
+                tr.setTerms(myTerms);
+            } catch (Exception e) {
+
             }
-            tr.setTerms(myTerms);
             String[] geodesic_vector = value.split("Place")[1].split("geodesic_vector=\\[")[1].split("\\]")[0].split(",");
             Vector<Double> gv = new Vector();
             gv.add(Double.parseDouble(geodesic_vector[0].strip()));

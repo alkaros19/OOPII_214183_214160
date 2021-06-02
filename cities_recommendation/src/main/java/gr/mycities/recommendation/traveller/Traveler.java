@@ -6,12 +6,10 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import gr.mycities.recommendation.exceptions.NoAcceptedAgeException;
 import gr.mycities.recommendation.CalculationUtils;
 import static gr.mycities.recommendation.MyConstants.SEPARATOR;
-import gr.mycities.recommendation.MyTravellers;
 import gr.mycities.recommendation.json.TravelerDeserializer;
 import gr.mycities.recommendation.json.TravelerSerializer;
 import gr.mycities.recommendation.models.City;
 import gr.mycities.recommendation.models.Place;
-import gr.mycities.recommendation.models.Reccomendation;
 import gr.mycities.recommendation.models.Term;
 import java.util.List;
 import java.util.Objects;
@@ -49,7 +47,7 @@ public abstract class Traveler {
 
     // we did not make this method abstract, because it's body is the same for all chlidren
     public double calculate_similarity(City city, double p) {
-        MyTravellers.addReccomendation(this, new Reccomendation(city));
+//        MyTravellers.addReccomendation(this, new Reccomendation(city));
         return p * similarity_terms_vector(city) + (1 - p) * CalculationUtils.similarity_geodesic_vector(this, city);
     }
 

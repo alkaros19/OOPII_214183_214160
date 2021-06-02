@@ -50,7 +50,7 @@ public class TermsWindow {
         messagesArea.setLineWrap(true);
         messagesArea.setWrapStyleWord(true);
         ActionListener cityAction;
-        cityAction = new ActionListener() { 
+        cityAction = new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 switch (e.getActionCommand()) {
@@ -65,35 +65,45 @@ public class TermsWindow {
                                         "Are you sure you want to rebuild all data? Travelers terms will set to zero! It takes some time...",
                                         "File", JOptionPane.YES_NO_OPTION, JOptionPane.PLAIN_MESSAGE, null);
                         if (res == 0) { // if we press yes, delete the row
-                            // rebuild the cities
-                            for (City city : MyCities.getCities()) {
-                                for (var i = 0; i < city.getTerms_vector().size(); i++) {
-                                    Term term = (Term) city.getTerms_vector().get(i);
-                                    term.setDescription(termsModel.getTerms().get(i));
-                                    term.setRate(0);
+                            Runnable r = new Runnable() {
+                                @Override
+                                public void run() {
+                                    // rebuild the cities
+                                    for (City city : MyCities.getCities()) {
+                                        for (var i = 0; i < city.getTerms_vector().size(); i++) {
+                                            Term term = (Term) city.getTerms_vector().get(i);
+                                            term.setDescription(termsModel.getTerms().get(i));
+                                            term.setRate(0);
+                                        }
+                                        try {
+                                            Thread t = MyCities.setTerms(city);
+                                            t.join();
+                                            MyCities.updateCity(city);
+                                        } catch (NoDocumentFoundForCityInWikipedia | IOException ex) {
+                                            Logger.getLogger(TermsWindow.class.getName()).log(Level.SEVERE, null, ex);
+                                            messagesArea.append(ex.toString());
+                                        } catch (InterruptedException ex) {
+                                            Logger.getLogger(TermsWindow.class.getName()).log(Level.SEVERE, null, ex);
+                                        }
+                                    }
+                                    // rebuild the travelers
+                                    Iterator it = MyTravellers.getTravelers().keySet().iterator();
+                                    HashMap<Traveler, Reccomendation> newTravelers = new HashMap<>();
+                                    while (it.hasNext()) {
+                                        Traveler tr = (Traveler) it.next();
+                                        for (var i = 0; i < tr.getTerms().size(); i++) {
+                                            Term term = (Term) tr.getTerms().get(i);
+                                            term.setDescription(termsModel.getTerms().get(i));
+                                            term.setRate(0);
+                                        }
+                                        newTravelers.put(tr, null);
+                                    }
+                                    MyTravellers.getTravelers().clear();
+                                    MyTravellers.getTravelers().putAll(newTravelers);
                                 }
-                                try {
-                                    MyCities.setTerms(city);
-                                    MyCities.updateCity(city);
-                                } catch (NoDocumentFoundForCityInWikipedia | IOException ex) {
-                                    Logger.getLogger(TermsWindow.class.getName()).log(Level.SEVERE, null, ex);
-                                    messagesArea.append(ex.toString());
-                                }
-                            }
-                            // rebuild the travelers
-                            Iterator it = MyTravellers.getTravelers().keySet().iterator();
-                            HashMap<Traveler, Reccomendation> newTravelers = new HashMap<>();
-                            while (it.hasNext()) {
-                                Traveler tr = (Traveler) it.next();
-                                for (var i = 0; i < tr.getTerms().size(); i++) {
-                                    Term term = (Term) tr.getTerms().get(i);
-                                    term.setDescription(termsModel.getTerms().get(i));
-                                    term.setRate(0);
-                                }
-                                newTravelers.put(tr, null);
-                            }
-                            MyTravellers.getTravelers().clear();
-                            MyTravellers.getTravelers().putAll(newTravelers);
+                            };
+                            Thread t = new Thread(r);
+                            t.start();
                         } else if (res == 1) {
                             // we do nothing
                         }

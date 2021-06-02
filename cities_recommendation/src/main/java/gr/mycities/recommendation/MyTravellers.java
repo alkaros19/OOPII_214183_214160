@@ -40,9 +40,22 @@ public class MyTravellers {
         return new LinkedHashSet<>(tr); 
     }
 
+    public static List<TravelerWithRecommendation> getTravelersReccomendations() {
+        List<TravelerWithRecommendation> tr = new ArrayList<>();
+        Iterator it = travelers.entrySet().iterator();
+        while(it.hasNext()) {
+            Map.Entry<Traveler, Reccomendation> pair = (Map.Entry)it.next();
+            tr.add(new TravelerWithRecommendation(pair.getKey(), pair.getValue()));
+        }
+        return tr;
+    }
+    
     // returns the hashmap
     public static Map<Traveler, Reccomendation> getTravelers() {
         return travelers;
     }
     
+    public static void deleteByTravelerName(String travelerName) {
+        travelers.entrySet().removeIf((entry) -> entry.getKey().getName().equals(travelerName));
+    }
 }

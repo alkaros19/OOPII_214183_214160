@@ -1,5 +1,9 @@
 package gr.mycities.recommendation.models;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import gr.mycities.recommendation.MyCities;
+import gr.mycities.recommendation.exceptions.NoPlaceFoundInWeatherAPI;
+import java.io.IOException;
 import java.util.Objects;
 import java.util.Vector;
 
@@ -47,6 +51,9 @@ public class Place {
         this.country = country;
     }
 
+    public void calculateGeodesic() throws NoPlaceFoundInWeatherAPI, IOException{
+       MyCities.setGeodesic(new ObjectMapper(), this);
+    }
     // we need for treeset
     @Override
     public int hashCode() {

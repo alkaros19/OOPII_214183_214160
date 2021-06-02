@@ -1,12 +1,14 @@
 package gr.mycities.recommendation;
 
 import gr.mycities.recommendation.models.City;
+import gr.mycities.recommendation.models.Term;
 import gr.mycities.recommendation.traveller.Traveler;
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.Vector;
 
 /**
- * 
+ *
  * contains utilities functions that helps in the calculations of the project
  */
 public class CalculationUtils {
@@ -91,6 +93,26 @@ public class CalculationUtils {
                 .toString();
 
         return generatedString;
+    }
+
+    // The standard method of Collaborative Filtering is known as Nearest Neighborhood 
+    public static double nearestNeighborhood(Traveler t1, Traveler t2) {
+        return cosineSimilarity(t1.getTerms(), t2.getTerms()) / t1.getTerms().size();
+    }
+
+    public static double cosineSimilarity(Vector<Term> t1, Vector<Term> t2) {
+        double dotProduct = 0.0;
+        double normA = 0.0;
+        double normB = 0.0;
+        for (int i = 0; i < t1.size(); i++) {
+                double travellerRate = t1.get(i).getRate();
+                double checkedRate = t2.get(i).getRate();
+                dotProduct += travellerRate * checkedRate;
+                normA += travellerRate * travellerRate;
+                normB += checkedRate * checkedRate;
+        }
+        Double result = dotProduct / (Math.sqrt(normA) * Math.sqrt(normB));
+        return result.isNaN() ? 0 : result;
     }
 
     /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/

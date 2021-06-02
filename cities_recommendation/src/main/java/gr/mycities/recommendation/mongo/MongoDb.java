@@ -19,5 +19,10 @@ public class MongoDb {
         }
         return mongoClient;
     }
+    
+    public static void closeConnection() {
+        mongoClient.close();
+        mongoClient = null;
+    }
 
 }

@@ -1,5 +1,6 @@
 package gr.mycities.recommendation.traveller;
 
+import gr.mycities.recommendation.CalculationUtils;
 import gr.mycities.recommendation.models.City;
 import gr.mycities.recommendation.models.Place;
 
@@ -18,17 +19,6 @@ public class MiddleTraveler extends Traveler {
     // calculation based on cosine similarity
     @Override
     public double similarity_terms_vector(City city) {
-        double dotProduct = 0.0;
-        double normA = 0.0;
-        double normB = 0.0;
-        for (int i = 0; i < getTerms().size(); i++) {
-            double travellerRate = getTermRate(i);
-            double cityRate = city.getTermRate(i);
-            dotProduct += travellerRate * cityRate;
-            normA += travellerRate * travellerRate;
-            normB += cityRate * cityRate;
-        }
-        return dotProduct / (Math.sqrt(normA) * Math.sqrt(normB));
-    }
-
+        return CalculationUtils.cosineSimilarity(getTerms(), city.getTerms_vector());
+    }   
 }

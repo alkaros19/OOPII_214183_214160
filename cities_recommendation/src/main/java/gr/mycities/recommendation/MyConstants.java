@@ -3,7 +3,7 @@ package gr.mycities.recommendation;
 
 
 public class MyConstants {
-    public static final String API_KEY = "fdad7e2bc06fbcbee2745a7428f14d39"; // the key for the weather api
+    public static final String API_KEY = ""; // the key for the weather api
     public static final String[] TERMS = {"sea", "mountain", "museum", "cafe", "restaurant", "music", "theater", "bar", "art", "sport"}; // our terms
     public static final String[][] CITIES = {{"London", "England"}, {"Rome", "Italy"}, {"Corfu", "Greece"}}; // cities - we need also the country in order to find the lat lon
     public static final double PARAMETER_FOR_SIMILARITY_FUNCTION = 0.25; // needed for the similarity calculation

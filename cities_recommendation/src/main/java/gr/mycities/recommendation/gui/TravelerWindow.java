@@ -1,9 +1,11 @@
 package gr.mycities.recommendation.gui;
 
+import gr.mycities.recommendation.CalculationUtils;
 import gr.mycities.recommendation.MyCities;
 import gr.mycities.recommendation.MyConstants;
 import gr.mycities.recommendation.MyTravellers;
 import gr.mycities.recommendation.exceptions.NoAcceptedAgeException;
+import gr.mycities.recommendation.exceptions.NoDocumentFoundForCityInWikipedia;
 import gr.mycities.recommendation.exceptions.NoPlaceFoundInWeatherAPI;
 import gr.mycities.recommendation.models.City;
 import gr.mycities.recommendation.models.Place;
@@ -18,9 +20,11 @@ import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
+import java.util.Comparator;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.stream.Collectors;
 
 import javax.swing.JButton;
 import javax.swing.JComboBox;
@@ -160,6 +164,35 @@ public class TravelerWindow {
                             JOptionPane.showMessageDialog(null, "Please select a row to recommend a city!");
                         }
                         break;
+                    case "recommendCitiesCollaborative":
+                        selectedRow = cityTable.getSelectedRow();
+                        if (selectedRow > -1) {
+                            try {
+                                // if not row chosen the value is -1
+                                selectedRow = cityTable.convertRowIndexToModel(cityTable.getSelectedRow());
+                                TravelerWithRecommendation tr = travelerModel.getTravelersWithRecommendations().get(selectedRow);
+                                List<Object[]> myData = travelerModel.getTravelersWithRecommendations().stream().filter(t -> t.getReccomendation() != null && !t.getTraveler().equals(tr.getTraveler())).map((t) -> {
+                                    Object[] data = new Object[3];
+                                    data[0] = CalculationUtils.nearestNeighborhood(tr.getTraveler(), t.getTraveler());
+                                    data[1] = t.getReccomendation();
+                                    data[2] = t.getTraveler().getName();
+                                    System.out.println("***********" + data[0] + " " + data[2]);
+                                    return data;
+                                }).sorted(Comparator.comparingDouble(obj -> -(Double) obj[0])).collect(Collectors.toList());
+                                myData.forEach(d-> System.out.println(d[0]));
+                                City recCity = MyCities.getCity(((Reccomendation) myData.get(0)[1]).getVisit().getPlace());
+                                Reccomendation rc = new Reccomendation(recCity);
+                                tr.setReccomendation(rc);
+                                MyTravellers.addReccomendation(tr.getTraveler(), rc);
+                                travelerModel.fireTableDataChanged();
+                                messagesArea.append(myData.get(0)[0] + " " + recCity.getPlace().toString());
+                            } catch (NoDocumentFoundForCityInWikipedia | IOException | NoPlaceFoundInWeatherAPI ex) {
+                                Logger.getLogger(TravelerWindow.class.getName()).log(Level.SEVERE, null, ex);
+                            }
+                        } else { //just inform the user to select a row
+                            JOptionPane.showMessageDialog(null, "Please select a row to recommend a city!");
+                        }
+                        break;
                     default:
                         break;
                 }
@@ -182,6 +215,9 @@ public class TravelerWindow {
         JButton recommendCitiesButton = new JButton("recommendCities");
         recommendCitiesButton.addActionListener(travelerAction);
         southPanel.add(recommendCitiesButton);
+        JButton recommendCitiesCollaborativeButton = new JButton("recommendCitiesCollaborative");
+        recommendCitiesCollaborativeButton.addActionListener(travelerAction);
+        southPanel.add(recommendCitiesCollaborativeButton);
         JButton mainMenuButton = new JButton("main menu");
         mainMenuButton.addActionListener(travelerAction);
         southPanel.add(mainMenuButton);
